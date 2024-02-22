@@ -1,0 +1,40 @@
+
+.search-engine {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .react-select__control {
+    border: 1px solid #555;
+    border-radius: 8px;
+  }
+  
+  .react-select__input {
+    padding: 12px;
+    color: #333;
+  }
+  
+  .react-select__indicator-separator {
+    display: none;
+  }
+  
+  .react-select__dropdown-indicator,
+  .react-select__indicator {
+    color: #007bff;
+  }
+  
+  .react-select__placeholder {
+    color: #888;
+  }
+  
+  .react-select__option {
+    padding: 12px;
+    color: #333;
+  }
+  
+  .react-select__option--is-selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+ 
