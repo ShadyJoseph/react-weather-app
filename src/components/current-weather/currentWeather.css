@@ -11,8 +11,8 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr 1fr;
-  width: 500px;
-  padding: 30px;
+  width: 90%; /* Changed width to 90% for mobile screens */
+  padding: 20px;
   border-radius: 15px;
   box-shadow: 0 2px 10px var(--box-shadow-color);
   background-color: var(--background-color);
@@ -92,12 +92,12 @@
   text-align: right;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 769px) {
   .weather-container {
-    width: 90%;
+    grid-template-columns: 1fr 1fr; 
+    width: 500px;
   }
 }
-
 
 .param-row:nth-child(even) {
   background-color: #f5f5f5;
