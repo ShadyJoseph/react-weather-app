@@ -38,7 +38,8 @@
 
 @media screen and (max-width: 767px) {
   .search-engine {
-    padding: 10px;
+    padding: 20px ;
+    box-sizing: border-box; 
   }
 
   .react-select__input {
