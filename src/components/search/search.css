@@ -43,10 +43,12 @@
 
   .react-select__input {
     padding: 8px;
+    font-size: 14px;
   }
 
   .react-select__option,
   .react-select__option--is-selected {
     padding: 8px;
+    font-size: 14px;
   }
 }

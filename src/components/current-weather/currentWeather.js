@@ -1,6 +1,5 @@
 import "./currentWeather.css";
 import React, { useState, useEffect } from "react";
-
 function CurrentWeather({ data }) {
   const [C, setC] = useState(0);
   const [feelsLikeC, setFeelsLikeC] = useState(0);

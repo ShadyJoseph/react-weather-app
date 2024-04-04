@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate";
 import { geoApiUrl, geoApiOptions } from "../../api";
 import "./search.css";
+import Loader from "../loader/Loader";
 function Search({ onSearchChange }) {
   const [search, setSearch] = useState(null);
 
