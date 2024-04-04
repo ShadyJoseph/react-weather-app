@@ -61,6 +61,37 @@
 @media only screen and (max-width: 768px) {
   .forecast-container {
     width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
   }
   
+  .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .daily-item {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .icon-small {
+    width: 45px;
+    height: 45px;
+  }
+
+  .day {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .min-max {
+    font-size: 14px;
+  }
 }
